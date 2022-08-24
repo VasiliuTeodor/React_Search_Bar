@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.table-container,
+.table {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.table-container {
+  width: 100vw;
+  height: 100vh;
+  gap: 20px;
+}
+
+input {
+  border: 1px solid black;
+  padding: 5px;
+  padding-left: 8px;
+  outline: none;
+}
+
+input:focus {
+  background-color: rgb(247, 241, 241);
+}
